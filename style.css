@@ -1,0 +1,26 @@
+
+html{
+font: monospace;
+}
+h1{
+    margin-left:auto;
+    text-align: center;
+}
+main{
+    margin:0;
+    padding:0;
+    width: 100%;
+    background-color: grey;
+}
+#canvas-container{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+}
+canvas{
+    position:relative;
+}
+
+button{
+    transform: translateX(-50%);
+}
